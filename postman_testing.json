@@ -1,0 +1,38 @@
+[
+  {
+    "post": "http://localhost:8080/api/email/send-auto-response",
+    "Content-Type": "application/json",
+    "body": {
+      "senderEmail": "senderemail@gmail.com",
+      "subject": "Query about pricing details",
+      "message": "Hi team, I would like to know more about your pricing plans and any available offers."
+    }
+  },
+  {
+    "post": "http://localhost:8080/api/email/send-auto-response",
+    "Content-Type": "application/json",
+    "body": {
+      "senderEmail": "senderemail@gmail.com",
+      "subject": "Inquiry about services provided",
+      "message": "Hello, I'm interested in understanding the services your company provides. Please share more details."
+    }
+  },
+  {
+    "post": "http://localhost:8080/api/email/send-auto-response",
+    "Content-Type": "application/json",
+    "body": {
+      "senderEmail": "senderemail@gmail.com",
+      "subject": "Need help with product setup",
+      "message": "Hi team, I'm facing issues with setup. Need support asap."
+    }
+  },
+  {
+    "post": "http://localhost:8080/api/email/send-auto-response",
+    "Content-Type": "application/json",
+    "body": {
+      "senderEmail": "senderemail@gmail.com",
+      "subject": "General inquiry",
+      "message": "Hello, I have a few questions regarding your product. Please get back to me at your earliest convenience."
+    }
+  }
+]
